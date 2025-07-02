@@ -29,16 +29,16 @@ export default function Home() {const [isOpen, setIsOpen] = useState(false);
             <h1 className="text-2xl md:text-3xl font-bold tracking-widest uppercase text-[#AF1B1B]">
               CARLO ALESSANDRO
             </h1>
-            <p className="text-sm text-[#E5E7EB] uppercase tracking-wide mt-1">Diretor Executivo</p>
+            <p className="text-sm text-[#E5E7EB] uppercase tracking-wide mt-1 ml-1">Diretor Executivo</p>
 
-            <div className="mt-6 space-y-4 text-sm">
+            <div className="mt-6 space-y-4 text-sm ml-1">
               <div>
                 <p className="font-semibold">Matriz:</p>
                 <p>R. A, 01 - Vila Vicente Fialho,<br/>São Luís - MA, CEP: 65073-210</p>
               </div>
               <div>
                 <p className="font-semibold">Filial Pará:</p>
-                <p>Av. C, QD 77 - LT 32 BCidade Jardim,<br/>Parauapebas - PA, CEP: 68515-000</p>
+                <p>Av. C, QD 77 - LT 32 Cidade Jardim,<br/>Parauapebas - PA, CEP: 68515-000</p>
               </div>
               <div>
                 <p className="font-semibold">Filial Ceará:</p>
@@ -61,7 +61,7 @@ export default function Home() {const [isOpen, setIsOpen] = useState(false);
             </div>
           </div>
 
-          <p className="text-xs text-gray-400 italic pt-4">Representação executiva | Projeta Consultoria</p>
+          <p className="text-xs text-gray-400 italic pt-4 ml-1">Representação executiva | Projeta Consultoria</p>
         </motion.div>
 
         {/* Portfólio com Modal */}
@@ -84,7 +84,7 @@ export default function Home() {const [isOpen, setIsOpen] = useState(false);
           >
             Visualizar Portfólio
           </button>
-          <p className="text-sm text-gray-500 mt-4">Documento institucional | Confidencial</p>
+          <p className="text-sm text-gray-500 mt-4">Documento institucional</p>
         </motion.div>
       </div>
 
