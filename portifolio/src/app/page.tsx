@@ -71,7 +71,7 @@ export default function Home() {const [isOpen, setIsOpen] = useState(false);
           transition={{ duration: 0.6, delay: 0.1 }}
           className="flex flex-col justify-center items-center text-center bg-white p-8"
         >
-          <h2 className="text-2xl font-semibold text-[#1F1F1F] mb-4">Portfólio Executivo</h2>
+          <h2 className="text-2xl font-semibold text-[#1F1F1F] mb-4">Portfólio</h2>
           <button
             onClick={() => {
               if (isMobile) {
