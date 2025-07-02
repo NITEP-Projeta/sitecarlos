@@ -108,7 +108,7 @@ export default function Home() {const [isOpen, setIsOpen] = useState(false);
                 >
                   <X size={24} />
                 </button>
-                <div className="flex justify-end mb-3">
+                <div className="flex justify-start mb-3">
                   <a
                     href="/portfolio.pdf"
                     download
