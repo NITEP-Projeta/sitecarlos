@@ -1,9 +1,8 @@
 "use client"
 
-import Image from "next/image";
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState, useEffect } from 'react';
-import { Phone, Mail, Globe, MapPin, Linkedin, Instagram, X, Download } from 'lucide-react';
+import { Phone, Mail, Globe, Linkedin, X, Download } from 'lucide-react';
 import { Dialog } from '@headlessui/react';
 
 export default function Home() {const [isOpen, setIsOpen] = useState(false);
