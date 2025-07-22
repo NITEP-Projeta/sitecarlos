@@ -49,7 +49,7 @@ export default function Home() {const [isOpen, setIsOpen] = useState(false);
                   <Phone size={16} /> +55 85 98845-4686 / (98) 3311 4359
                 </a>
                 <a href="mailto:projeta@projetacs.com" className="flex items-center gap-2 hover:text-[#AF1B1B] transition-all duration-300 ease-in-out">
-                  <Mail size={16} /> projeta@projetacs.com
+                  <Mail size={16} /> carlo.alessandro@projetacs.com
                 </a>
                 <a href="https://projetacs.com" target="_blank" className="flex items-center gap-2 hover:text-[#AF1B1B] transition-all duration-300 ease-in-out">
                   <Globe size={16} /> www.projetacs.com
